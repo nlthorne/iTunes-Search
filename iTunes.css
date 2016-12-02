@@ -1,0 +1,81 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	background-image: url("bluebackground1.jpg");
+	background-size: 100%;
+	color: #000000;
+	background-attachment: fixed;
+}
+a {
+	color: white !important;
+}
+a:hover {
+	color: grey !important;
+}
+a:active {
+	background-color: #ffbb00 !important;
+}
+.btn-info {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: grey;
+}
+.form-control{
+	width:20%
+}
+.separator {
+	height: 4px;
+	width: 200px;
+	background-color: white;
+}
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+ input[type="text"] {
+    position: relative;
+    display: block;
+    margin : 0 auto;
+    text-align: center;
+}
+h3 {
+  font-size: 4vh;
+  font-family: 'Arial', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: grey;
+    border: 1px solid #ddd;
+    border-style: dotted solid;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: black;
+    text-decoration: none;
+    background-color: grey;
+    border: 1px solid #000000;
+}
+
+.home-content{
+  text-align: center;
+}
+.heading-box{
+  align-self: center;
+}
+thead{
+  background-color: rgba(255,255,255,0.3);
+  color: #FFFFFF;
+  text-shadow: 1px 1px grey;
+}
+
+tbody{
+  background-color: rgba(255,255,255,0.2);
+  color: #FFFFFF;
+  text-shadow: 1px 1px grey;
+}

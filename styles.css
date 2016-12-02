@@ -1,0 +1,124 @@
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none;
+ border-color:#cccccc;
+}
+.form-control{width:20%}
+.navbar-nav > li > a {
+  border-right: 1px solid #ddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.navbar-nav:last-child{ border-right:0}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+body {
+  background: rgb(25, 25, 50);
+}
+h2 {
+  font-size: 10vh;
+  font-family: 'Pacifico', cursive;
+  color: rgb(100, 100, 200);
+  text-align: center;
+}
+
+h3 {
+  font-size: 4vh;
+  font-family: 'Arial', sans-serif;
+  color: rgb(100, 100, 200);
+  text-align: center;
+}
+h4 {
+  font-size: 5vh;
+  font-family: 'Pacifico', sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.btn-info {
+    color: rgb(100, 100, 200);
+    background-color: white;
+    border-color: white;
+}
+thead{
+  background-color: rgba(255,255,255,0.2);
+  color: grey;
+  text-shadow: 1px 1px black;
+}
+
+tbody{
+  background-color: rgba(255,255,255,0.1);
+  color: grey;
+  text-shadow: 1px 1px black;
+}
+
+.sort-box{
+  color: grey;
+  border-radius: 3px;
+  background: rgb(220,220,240);
+}
+
+.result-table{
+  margin: 5vh;
+}
+
+
+table{
+  margin-top: 5vh;
+}
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: rgb(220, 220, 240);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: rgb(50, 50, 70);
+    text-decoration: none;
+    background-color: rgb(220, 220, 240);
+    border: 1px solid #ddd;
+}
+
+.home-content{
+  text-align: center;
+}
+.heading-box{
+  align-self: center;
+}
